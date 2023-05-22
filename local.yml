@@ -4,6 +4,8 @@
   
 
   tasks:
-  - name: install htop
+  - name: install packages
     yum:
-     name: htop
+     name:
+      - mc
+      - tmux
